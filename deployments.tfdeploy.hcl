@@ -26,7 +26,7 @@ deployment "development" {
     tfc_hostname = "https://app.terraform.io"
     tfc_organization_name = "eshant-hcp-tf-test"
     eks_clusteradmin_arn = "arn:aws:iam::339713188207:role/aws_eshant.arora_test-developer"
-    eks_clusteradmin_username = "aws_eshant.arora__test-developer"
+    eks_clusteradmin_username = "aws_eshant.arora_test-developer"
 
     #K8S
     k8s_identity_token = identity_token.k8s.jwt
